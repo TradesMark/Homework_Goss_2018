@@ -3,7 +3,7 @@
   <ul>
     <li>Создайте	веб-страницу	(борд)	на	Кодактор.ру	или	ином	онлайн-редакторе</li>
 <li>Вставьте	элемент	script и	определение	функции</li>
-
+<p>
 <i>
 function makeCanvas(x, y) {  <br>
  const canvas = document.createElement('canvas'),<br>
@@ -11,7 +11,7 @@ function makeCanvas(x, y) {  <br>
  canvas.setAttribute('width', x);  <br>
  canvas.setAttribute('height', y);  <br>
  return { canvas, ctx };  <br>
-}  <br>
+}  <p><br> 
 
 </i>
 <li>Вызовите	функцию для	создания	переменных,	содержащих	холст	и	контекст
@@ -24,6 +24,5 @@ document.body.appendChild(canvas);</li>
 <li>Используя	аффинные	преобразования (https://kodaktor.ru/affine ),	осуществите	поворот	
 этого	изображения	на	90	градусов	против	часовой	стрелки.</li>
     
-    </ul>
   
   </p>
