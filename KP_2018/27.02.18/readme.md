@@ -3,15 +3,17 @@
   <ul>
     <li>Создайте	веб-страницу	(борд)	на	Кодактор.ру	или	ином	онлайн-редакторе</li>
 <li>Вставьте	элемент	script и	определение	функции</li>
-    
-function makeCanvas(x, y) {
- const canvas = document.createElement('canvas'),
- ctx = canvas.getContext('2d');
- canvas.setAttribute('width', x);
- canvas.setAttribute('height', y);
- return { canvas, ctx };
-}
 
+<i>
+function makeCanvas(x, y) {  <br>
+ const canvas = document.createElement('canvas'),<br>
+ ctx = canvas.getContext('2d');   <br>
+ canvas.setAttribute('width', x);  <br>
+ canvas.setAttribute('height', y);  <br>
+ return { canvas, ctx };  <br>
+}  <br>
+
+</i>
 <li>Вызовите	функцию для	создания	переменных,	содержащих	холст	и	контекст
 const { canvas, ctx } = makeCanvas(300, 120);</li>
 <li>Добавьте	холст	в	дерево	DOM
