@@ -2,7 +2,7 @@
 
 <p>https://kodaktor.ru/super-class-15-02-2018.pdf   </p>
 
-<h3> ИТОГ РАБОТЫ <h3>
+<h3> ИТОГ РАБОТЫ </h3>
   <p>
   <i>
   class Father {  <br>
