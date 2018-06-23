@@ -2,7 +2,7 @@
 <p>
   <ul>
     <li>Создайте	веб-страницу	(борд)	на	Кодактор.ру	или	ином	онлайн-редакторе</li>
-<li>Вставьте	элемент	script и	определение	функции</li>
+<li>Вставьте	элемент	script и	определение	функции</li> <br>
 <p>
 <i>
 function makeCanvas(x, y) {  <br>
@@ -11,7 +11,7 @@ function makeCanvas(x, y) {  <br>
  canvas.setAttribute('width', x);  <br>
  canvas.setAttribute('height', y);  <br>
  return { canvas, ctx };  <br>
-}  <p><br> 
+}  <p>
 
 </i>
 <li>Вызовите	функцию для	создания	переменных,	содержащих	холст	и	контекст
